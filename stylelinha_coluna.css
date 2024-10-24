@@ -1,0 +1,64 @@
+/* Classes para a linhas e colunas */
+.linha{
+    display: flex;
+    flex-wrap: wrap; /*quebra o conteúdo para a linha de baixo automaticamente*/
+    margin: 10px;
+}
+.linha>div{ 
+/*Quando esse CSS é aplicado, todos os elementos <div> que são filhos diretos de um elemento com 
+a classe linha terão uma borda de 2 pixels, sólida e na cor tomate.*/
+
+    border: 2px solid tomato;
+}
+.coluna{
+    flex: 0;
+/*ocupe todo o espaço disponive*/
+
+}
+
+.coluna-4{
+    flex: 0 0 33.33%; /*primeiro zero estica, o segundo zero da uma comprimida*/
+}
+
+.bg-tomato{
+    background-color: tomato;
+    font-size: 30px;
+}
+
+.coluna-1{
+    flex: 0 0 8.33%; 
+}
+.coluna-2{
+    flex: 0 0 16.67%;
+
+}
+.coluna-5{
+    flex: 0 0 25%;
+}
+.coluna-6{
+    flex: 0 0 50%;
+}
+
+.coluna-7{
+    flex: 0 0 58%;
+}
+
+.coluna-8{
+    flex: 0 0 66.67%;
+}
+
+.coluna-9{
+    flex: 0 0 75%;
+}
+
+.coluna-10{
+    flex: 0 0 83.33%;
+}
+
+.coluna-11{
+    flex: 0 0 91.67%;
+}
+
+.coluna-12{
+    flex: 0 0 100%;
+}
